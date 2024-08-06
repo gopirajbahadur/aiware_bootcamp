@@ -796,6 +796,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #speakers {
   padding: 60px 0 30px 0;
 }
+#speakers .member img {
+  width: 100%;
+  max-width: 225px; /* Adjust this value as needed */
+  height: 225px;
+}
 
 #speakers .speaker {
   position: relative;
@@ -893,7 +898,22 @@ body.mobile-nav-active #mobile-nav-toggle {
 #schedule {
   padding: 60px 0 60px 0;
 }
+#schedule .nav-tabs .nav-item {
+  flex: 1;  /* Distribute space evenly */
+  text-align: center;  /* Center-align text */
+  margin-bottom: 0;  /* Remove any bottom margin */
+}
 
+#schedule .nav-tabs .nav-link {
+  padding: 8px 12px;  /* Reduce padding to make links smaller */
+  font-size: 16px;  /* Reduce font size */
+}
+
+#schedule .nav-tabs {
+  display: flex;
+  justify-content: space-around;  /* Ensure that items are spaced out evenly across the nav bar */
+  flex-wrap: wrap;  /* Allow wrapping if the screen is too narrow */
+}
 #schedule .nav-tabs {
   text-align: center;
   margin: auto;
@@ -983,6 +1003,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #152b79;
   margin-bottom: 0;
 }
+
 
 /*--------------------------------------------------------------
 # Venue Section
