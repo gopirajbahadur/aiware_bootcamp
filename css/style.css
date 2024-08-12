@@ -1322,7 +1322,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 #subscribe button:hover {
   background: #e0072f;
 }
-
+#left-corner-text {
+  position: absolute;
+  top: 20px; /* Adjust as necessary */
+  left: 20px; /* Adjust as necessary */
+  font-size: 20px; /* Increase size as needed */
+  font-weight: bold; /* Optional: Make the text bold */
+  color: #ffffff; /* Change text color as needed */
+}
 /*--------------------------------------------------------------
 # Buy Tickets Section
 --------------------------------------------------------------*/
