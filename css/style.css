@@ -1064,6 +1064,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #venue .venue-gallery img {
   transition: all ease-in-out 0.4s;
+  
 }
 
 #venue .venue-gallery:hover img {
@@ -1830,4 +1831,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 .custom-list ul li {
   letter-spacing: -0.5px !important; /* Reduces space between letters */
   line-height: 0.5 !important; /* Adjusts space between lines */
+}
+/* Style for the small logo in the header */
+.logo-small {
+  height: 40px;  /* Adjust size as needed */
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Style for the large logo above the title */
+.logo-large {
+  max-width: 300px; /* Adjust size as needed */
+  display: block;
+  margin: 0 auto 20px auto; /* Center the image with margin below */
 }
